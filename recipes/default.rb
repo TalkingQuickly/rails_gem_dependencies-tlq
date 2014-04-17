@@ -10,3 +10,4 @@ apt_repository("node.js") do
   keyserver "keyserver.ubuntu.com"
   key "C7917B12"
 end
+package 'nodejs'
