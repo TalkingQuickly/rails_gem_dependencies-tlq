@@ -11,3 +11,4 @@ apt_repository("node.js") do
   key "C7917B12"
 end
 package 'nodejs'
+package 'libffi-dev' # needed for Ruby 2.2.* to be installed by rbenv
