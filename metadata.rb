@@ -9,3 +9,5 @@ recipe "rails_gem_dependencies-tlq", "all the gems"
 supports "ubuntu"
 
 depends "apt"
+
+depends "nodejs"
